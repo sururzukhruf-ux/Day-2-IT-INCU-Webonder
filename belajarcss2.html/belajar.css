@@ -1,0 +1,67 @@
+p{
+    color: blue;
+    font-size: 25px;
+    text-align: left;
+}
+/*id selector*/
+#Judul{
+    color: whitesmoke;
+    font-size: 45px;
+    text-align: center;
+}
+/* class selector*/
+.merah{
+color: seagreen;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+
+.satu{
+    font-size: 45px;
+    font-weight: 100;
+    text-decoration: overline;
+}
+/*selector list*/
+h1,p{
+    padding-top: 0%;
+}
+.text{
+    color:orangered;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    line-height: 125%;
+    letter-spacing: normal;
+    word-spacing: 120%;
+    text-shadow: 2px 2px 5px yellow;
+
+}
+.font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.box{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 30px dashed black;
+}
+.border{
+    border: 25px solid greenyellow;
+    border-radius: 700px;
+    outline: 15px dashed green;
+    padding: auto;
+}
+.background{
+    background-position: center;
+    background-image: url();
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXyGvald56OQpGnaeVn58TCUprEL1ExvRCI3ffRBtS9w&s);
+}
+
+    
+    

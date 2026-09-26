@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #256eb2;
+  color: white;
+}
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.btn-transition {
+  padding: 12px 24px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: background-color 1.5s;
+}
+.btn-transition:hover {
+  transform: translateY(-10px);
+  background-color: red;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.feature-card {
+  width: 250px;
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+
+  transition: transform 1.5s;
+}
+.feature-card:hover {
+  transform: scale(1.1);
+}
+.animation-card {
+  width: 250px;
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+  animation: floating 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes floating {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.loading-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+.loader {
+  width: 50px;
+  height: 50px;
+  margin: 25px auto;
+
+  border: 5px solid rgb(243, 77, 77);
+  border-top: 10px blue;
+  border-radius: 50%;
+
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
